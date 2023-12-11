@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-// Define the subcollection schema
+// Define the subcollection schema Doctor
 const appointmentSchema = new mongoose.Schema({
     day: {
         type: String,
